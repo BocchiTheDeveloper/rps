@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>jankenpon</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Rock Paper Scissors Game</h1>
+        <p>The Computer challenges you to a duel of Rock Paper Scissors. Choose your weapon.</p>
+        <button id="rock" onclick="playTheGame('rock')">Rock</button>
+        <button id="paper" onclick="playTheGame('paper')">Paper</button>
+        <button id="scissors" onclick="playTheGame('scissors')">Scissors</button>
+        <h1>Results</h1>
+        <div class="result-container">
+            <p id="results"></p>
+        </div>
+        <p>Player Score: <span id="playerScore"></span></p>
+        <p>Computer Score: <span id="computerScore"></span></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
